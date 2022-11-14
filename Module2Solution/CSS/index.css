@@ -4,13 +4,13 @@
     }
 
     body {
-        background-color: lavender;
+        background-color: white;
     }
 
     h1 {
        margin-bottom: 15px;
     text-align: center;
-    color: cyan;
+    color: #ff4532;
     font-size: 50px;
     }
 
@@ -37,7 +37,6 @@
 
     .sub1 {
         float: right;
-        color: white;
         width: 100px;
         padding: 5px;
         margin: -3px -3px 0px;
@@ -45,7 +44,7 @@
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: red;
+        background-color: #FFB6C1;
 
     }
 
@@ -59,12 +58,12 @@
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: red;
+        background-color: #FF0000;
 
     }
 
     .sub3 {
-        color: white;
+        color: black;
         float: right;
         width: 100px;
         padding: 5px;
@@ -73,7 +72,7 @@
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: pink;
+        background-color: rgb(223, 212, 121);
 
     }
 
