@@ -1,32 +1,31 @@
 /*basic style*/
-    * 
-    {
+    * {
         box-sizing: border-box;
     }
-    body 
-    {
+
+    body {
         background-color: lavender;
     }
-    h1 
-    {
+
+    h1 {
        margin-bottom: 15px;
     text-align: center;
-    color: white;
+    color: cyan;
     font-size: 50px;
     }
-    section 
-    {
+
+    section {
         position: relative;
         padding: 15px;
         width: 90%;
     }
-    p 
-    {
+
+    p {
         position: relative;
         clear: right;
     }
-    div 
-    {
+
+    div {
         position: relative;
         background-color: gray;
         border: 3.5px solid black;
@@ -35,19 +34,8 @@
         margin-right: auto;
         margin-bottom: auto;
     }
+
     .sub1 {
-        float: right;
-        width: 100px;
-        padding: 5px;
-        margin: -3px -3px 0px;
-        border: 3.5px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: red;
-    }
-    .sub2 
-    {
         float: right;
         color: white;
         width: 100px;
@@ -57,11 +45,26 @@
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: green;
+        background-color: red;
+
     }
-    .sub3 
-    {
-        color: black;
+
+    .sub2 {
+        float: right;
+        color: white;
+        width: 100px;
+        padding: 5px;
+        margin: -3px -3px 0px;
+        border: 3.5px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: red;
+
+    }
+
+    .sub3 {
+        color: white;
         float: right;
         width: 100px;
         padding: 5px;
@@ -70,32 +73,33 @@
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: blue;
+        background-color: pink;
+
     }
-    .content
-    {
+
+    .content {
         padding: 5px;
         border: none;
-        background-color: gold;
+        background-color: gray;
         font-family: Helvetica;
         color: black;
         margin: 3px ;
         height: 150px;
         overflow: auto;
     }
-    .row 
-    {
+
+    .row {
         width: 90%;
     }
+
     /*desktop version*/
-    @media (min-width: 992px) 
-    {
-        .column-lg-4 
-        {
+    @media (min-width: 992px) {
+        .column-lg-4 {
             float: left;
             width: 33.33%;
         }
     }
+
     /*tablet version*/
     @media (min-width: 768px) and (max-width: 991px) {
         .colmn-md-6 {
@@ -112,11 +116,10 @@
             margin-right: auto;
         }
     }
+
     /*mobile version*/
-    @media (max-width: 767px)
-    {
-        .colmn-sm-12 
-        {
+    @media (max-width: 767px) {
+        .colmn-sm-12 {
             float: left;
             width: 100%;
         }
