@@ -1,12 +1,12 @@
 body{
 	font-size: 16px;
-	background-color: #008080;
-	font-family: "Oxygen", sans-serif;
+	background-color: rgb(255, 0, 150);
+	font-family: "Times New Roman", Times, serif;
 }
 
 /** Header **/
 #header-nav {
-	background-color: #00FFFF;
+	background-color: rgb(150, 0, 255);
 	border: 0;
 	border-radius: 0;
 }
